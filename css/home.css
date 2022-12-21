@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    border-radius: 8px ;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.containerCabecalho {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B0DDFC ;
+}
+
+.containerCabecalho .logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+}
+
+.containerCabecalho .containerMenu {
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerCabecalho a {
+    color: #063f68;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.containerMenu .underline {
+    border-bottom: 2px solid #063f68;
+}
+
+.containerBanner {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem auto;
+}
+
+.containerBanner .bannerImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sobre {
+    width: 100%;
+    max-width: 820px;
+    padding: 0 1rem;
+
+    margin: 2rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sobre h2 {
+    color: #0c4272;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.sobre img {
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.sobre p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.sobre .textoDestaque {
+    color: #3598ee;
+    font-weight: bold;
+}
+
+.servicos {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    margin: 0 auto;
+
+    background-color:#1D80C1 ;
+}
+
+.servicos h2 {
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.servicos p {
+    width: 100%;
+    font-size: 1rem;
+    color: #FFF;
+    text-align: justify;
+    margin-bottom: 2rem;
+    max-width: 820px;
+}
+
+.servicos .destaque {
+    color: #EAF443;
+    font-weight: bold;
+}
+
+.servicos .listaItem {
+    color: #FFF;
+}
+
+.corretores {
+    width: 100%;
+    max-width: 820px;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2rem auto;
+}
+
+.corretores h2 {
+    color: #1D80C1;
+    margin-bottom: 1rem;
+}
+
+.corretores img {
+    width: 70%;
+}
+
+.corretores p {
+    max-width: 820px;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.corretores .textoDestaque {
+    color: #1D80C1;
+    font-weight: bold;
+}
+
+.contato {
+    width: 100%;
+
+    padding: 4rem 1rem;
+    background-color: #1D80C1;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contato h2 {
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.contato iframe {
+    width: 100%;
+    height: 500px;
+    max-width: 820px;
+    border-radius: 4px;
+}
+
+.contato p {
+    max-width: 820px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #201B20;
+    color: #FFF;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.contato .textoDestaque {
+    color: #EAF443;
+    font-weight: bold;
+}
+
+.contato .containerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .containerLinks a {
+    margin-bottom: .5rem;
+    padding: .2rem;
+    background-color: #fff;
+    border-radius: 4px;
+}
